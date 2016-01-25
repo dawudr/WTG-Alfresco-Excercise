@@ -42,11 +42,17 @@ Here are the locations of the following files with a explanations
 
 ## Steps to create the listalldocuments webscript:
 1) Declare the URL and properties of webscript
+
 2) Register webscript and backing bean in the Spring context
+
 3) Create and register the custom invoice Aspect
+
 4) Java code for the webscripts in AcmeDocumentsWebscript.java
+
 5) Unit tests used to build the webscript service in AcmeDocumentsWebscriptTest.java
+
 6) Sample Test AcmeDocuments.zip contain an export of sample documents used to test the code and write the test cases with.
+
 Also Nodeservice createNode method was used to create files and folders and tear down after the end of each unit test.
 
 
