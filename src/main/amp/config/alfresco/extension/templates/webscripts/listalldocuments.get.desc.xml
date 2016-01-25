@@ -1,0 +1,18 @@
+<webscript>
+    <shortname>Alfresco Exercise 1</shortname>
+    <description>Lists all documents under the root folder AcmeDocuments across all folders</description>
+    <url>/listalldocuments</url>
+    <url>/alfresco/s/listalldocuments</url>
+    <url>/listAllDocuments</url>
+    <url>/alfresco/s/listAllDocuments</url>
+    <authentication>user</authentication>
+    <format default="json"/>
+    <transaction>none</transaction>
+    <family>Audit</family>
+    <cache>
+        <never>false</never>
+        <public>false</public>
+        <mustrevalidate>true</mustrevalidate>
+    </cache>
+    <lifecycle>draft</lifecycle>
+</webscript>

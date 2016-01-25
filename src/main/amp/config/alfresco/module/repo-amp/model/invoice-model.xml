@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="invoice:invoicesModel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+    <description>Invoice Metadata</description>
+    <author>dawud</author>
+    <version>1.0</version>
+    <imports>
+        <import uri="http://www.alfresco.org/model/dictionary/1.0" prefix="d"/>
+        <import uri="http://www.alfresco.org/model/content/1.0" prefix="cm"/>
+    </imports>
+
+    <namespaces>
+        <namespace uri="http://www.empeccable.org/model/content/1.0" prefix="invoice"/>
+    </namespaces>
+
+    <aspects>
+        <aspect name="invoice:metadata">
+            <title>Invoices Metadata</title>
+            <properties>
+                <property name="invoice:Amount">
+                    <title>Amount</title>
+                    <type>d:int</type>
+                </property>
+                <property name="invoice:Account">
+                    <title>Account Name</title>
+                    <type>d:text</type>
+                </property>
+            </properties>
+        </aspect>
+    </aspects>
+</model>
